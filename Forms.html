@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <link rel="stylesheet" href="D:\CSS\Position.css"> -->
+<body>
+    <div class="Data" >
+        <header id="App"><h1>Forms</h1></header>
+        <main>
+            <form>
+                <label>Name:</label>
+                <input id="name" type="text" placeholder="enter ur name"><br>
+
+                <label>Email:</label>
+                <input id="email" type="email" placeholder="enter ur email"><br>
+
+                <label>Password:</label>
+                <input id="password" type="password" placeholder="enter password"><br>
+
+                <label>phone no:</label>
+                <input id="number" type="number" placeholder="+91"><br>
+
+                <label>gender</label>
+                <input type="radio" name="gender" id="1" value="Male">Male
+                <input type="radio" name="gender" id="2" value="Female">Female<br>
+
+                <label>Qualification:</label>
+                <input class="qualification" type="checkbox" value="10th">10<sup>th</sup>
+                <input class="qualification" type="checkbox" value="12th">12<sup>th</sup>
+                <input class="qualification" type="checkbox" value="Diploma">Deploma
+                <input class="qualification" type="checkbox" value="Batchelors">Batchelors
+                <input class="qualification" type="checkbox" value="Masters">Masters
+                <input class="qualification" type="checkbox" value="Doctrate">Doctrate<br>
+
+                <label>D.O.B:</label>
+                <!-- <input type="date"> -->
+                <input type="datetime-local" id="date"><br>
+
+                <label>Color</label>
+                <input type="color"><br>
+
+                <label>Image</label>
+                <input type="file" id="image"><br>
+            </form>
+        </main>
+        <footer>
+            
+                <button type="button" onclick="show()">Submit</button>
+        </footer>
+    </div>
+    <div id="result">
+
+    </div>
+    <script src=".\Files\Script.js"></script>
+    
+</body>
+</html>
+
