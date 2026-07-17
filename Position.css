@@ -1,0 +1,17 @@
+form{
+    margin:0.9cm 0.2cm 0.5cm 0.1cm;
+    border-style: groove;
+    border-width: 0.6cm;
+    padding: 0.5cm;
+}
+input{
+    /*position: relative;*/
+     /*position: absolute;*/
+    position: static;
+    top: 2cm;
+
+}
+.read{
+    position: sticky;
+    top: 5cm;
+}

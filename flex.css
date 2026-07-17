@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background-color: gray;
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+    flex-direction: row;
+    justify-content: space-between;
+    /*justify-content: space-around;*/
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+
+}
+body{
+    margin: 40px;;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}

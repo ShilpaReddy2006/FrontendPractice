@@ -1,0 +1,46 @@
+body{
+background-color: aquamarine;
+transition: background-color 2s ease-in-out 7s;
+}
+img{
+    transition: transform 6s ease-in 2s;
+}
+body:hover{
+    background-color: darkgreen;
+}
+img:hover{
+    /*transform: scale(0.2);*/
+    transform: skew(20deg);
+}
+body{
+    animation: moves 10s linear 3s 4;
+}
+@keyframes moves {
+    0%{
+        background-color: burlywood;
+        color: blue;
+    }
+    20%{
+        background-color: azure;
+        font-family: monospace;
+        color: chartreuse;
+    }
+    40%{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: azure;
+        color: crimson;
+    }
+    60%{
+        font-family: sans-serif;
+        background-color: darkgray;
+        color: darkblue;
+    }
+    80%{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: darkseagreen;
+        color: tomato;
+    }
+    100%{
+        animation: moves 20s linear 3s 4;
+    }
+}

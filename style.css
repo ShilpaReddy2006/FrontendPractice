@@ -1,0 +1,30 @@
+body{
+    font-family: monospace;
+}
+h2{
+    font-style: italic;
+    color:deeppink;
+}
+table,th,td{
+    border-style: solid;
+}
+.para{
+    color: darkorange;
+}
+tr td{
+    color: rgb(157, 194, 20);
+}
+b{
+    color: lawngreen;
+}
+li{
+    font-style: italic;
+    font-weight: bolder;
+    color:maroon;
+    background-color:rgb(210, 210, 106);
+    text-align:justify;
+    background: linear-gradient(to left, red,green,pink,blue);
+}
+*{
+   background-color: (#E5CB90 ,#FFF3C8 ,#34A99D ,#34A99D);
+}
